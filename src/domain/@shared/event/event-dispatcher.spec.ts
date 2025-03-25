@@ -3,7 +3,7 @@ import SendConsoleWhenCustomerIsCreatedLog1Handler from "../../customer/event/cu
 import SendConsoleWhenCustomerIsCreatedLog2Handler from "../../customer/event/customer/handler/send-console-log-when-customer-is-created-2-handler";
 import SendConsoleLogWhenCustomerIsUpdated from "../../customer/event/customer/handler/send-console-log-when-customer-is-updated-handler";
 import SendEmailWhenProductIsCreatedHandler from "../../product/event/handler/send-email-when-product-is-created.handler";
-import ProductCreatedEvent from "../product/product-created.event";
+import ProductCreatedEvent from "../../product/event/product-created.event";
 import EventDispatcher from "./event-dispatcher";
 
 describe("domain event tests", () => {

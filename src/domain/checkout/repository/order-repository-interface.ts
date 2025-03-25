@@ -1,4 +1,5 @@
-import RepositoryInterface from "../../domain/repository/repository-interface";
+
+import RepositoryInterface from "../../@shared/repository/repository-interface";
 import Order from "../entity/order";
 
 
